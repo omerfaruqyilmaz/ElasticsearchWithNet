@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elasticsearch.API", "Elastisearch.API\Elasticsearch.API.csproj", "{609FCF35-9BFE-4A43-A69F-ED06FFE34E8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{A697CFDE-871D-4686-B1E4-FC49769195AA}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\OneDrive\Masaüstü\UdemyElasticsearchWithNet\docker-compose.yml = ..\..\..\OneDrive\Masaüstü\UdemyElasticsearchWithNet\docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elasticsearch.WEB", "Elasticsearch.WEB\Elasticsearch.WEB.csproj", "{88CEAE44-0B4C-44A7-9483-129A33D3EC7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{609FCF35-9BFE-4A43-A69F-ED06FFE34E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609FCF35-9BFE-4A43-A69F-ED06FFE34E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609FCF35-9BFE-4A43-A69F-ED06FFE34E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609FCF35-9BFE-4A43-A69F-ED06FFE34E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88CEAE44-0B4C-44A7-9483-129A33D3EC7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88CEAE44-0B4C-44A7-9483-129A33D3EC7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88CEAE44-0B4C-44A7-9483-129A33D3EC7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88CEAE44-0B4C-44A7-9483-129A33D3EC7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA4736AC-1A8F-45B0-8030-B4A5DE065D90}
+	EndGlobalSection
+EndGlobal
